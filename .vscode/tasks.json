@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++ compile using C++14",
+      "command": "g++",
+      "args": [
+        "-std=c++14",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wshadow",
+        "-g",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "${fileDirname}/${fileBasename}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "version": "2.0.0"
+}
