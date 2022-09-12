@@ -1,4 +1,4 @@
-# mtrn2500-tutor-22t3
+# mtrn2500-22t3-public
 
 Code repository for MTRN2500 22T3 demo.
 
